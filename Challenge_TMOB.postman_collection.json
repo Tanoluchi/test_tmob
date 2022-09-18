@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "ae01367f-8e6e-475d-a402-cb7dec984580",
+		"name": "Challenge_TMOB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20036458"
+	},
+	"item": [
+		{
+			"name": "Requests project",
+			"item": [
+				{
+					"name": "URL Python",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/redirect/python",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"python"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Dev",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/redirect/dev",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"dev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Facebook",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/redirect/facebook",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"facebook"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Twitter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/redirect/twitter",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"twitter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Instagram",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/redirect/instagram",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"instagram"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Request project docker",
+			"item": [
+				{
+					"name": "URL Python Docker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/redirect/python",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"python"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Dev Docker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/redirect/dev",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"dev"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Facebook Docker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/redirect/facebook",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"facebook"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Twitter Docker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/redirect/twitter",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"twitter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL Instagram Docker",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://0.0.0.0:8000/redirect/instagram",
+							"protocol": "http",
+							"host": [
+								"0",
+								"0",
+								"0",
+								"0"
+							],
+							"port": "8000",
+							"path": [
+								"redirect",
+								"instagram"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

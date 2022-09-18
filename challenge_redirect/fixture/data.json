@@ -1,0 +1,75 @@
+[
+{
+  "model": "app.redirect",
+  "pk": 1,
+  "fields": {
+    "key": "facebook",
+    "url": "https://www.facebook.com/",
+    "active": true,
+    "updated_at": "2022-09-17T13:58:44.192Z",
+    "created_at": "2022-09-17T13:58:44.192Z"
+  }
+},
+{
+  "model": "app.redirect",
+  "pk": 2,
+  "fields": {
+    "key": "twitter",
+    "url": "https://twitter.com/",
+    "active": true,
+    "updated_at": "2022-09-17T13:58:50.041Z",
+    "created_at": "2022-09-17T13:58:50.041Z"
+  }
+},
+{
+  "model": "app.redirect",
+  "pk": 3,
+  "fields": {
+    "key": "instagram",
+    "url": "https://www.instagram.com/",
+    "active": false,
+    "updated_at": "2022-09-17T14:00:03.817Z",
+    "created_at": "2022-09-17T13:58:54.537Z"
+  }
+},
+{
+  "model": "app.redirect",
+  "pk": 4,
+  "fields": {
+    "key": "dev",
+    "url": "https://dev.to/",
+    "active": true,
+    "updated_at": "2022-09-17T13:59:14.587Z",
+    "created_at": "2022-09-17T13:59:14.587Z"
+  }
+},
+{
+  "model": "app.redirect",
+  "pk": 5,
+  "fields": {
+    "key": "python",
+    "url": "https://www.python.org/",
+    "active": true,
+    "updated_at": "2022-09-17T13:59:49.563Z",
+    "created_at": "2022-09-17T13:59:49.563Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$DbaR0HxgVOZG$u6eBp70rf+7P+14CAuvXVcn2wjxKwR8F5RigkXu1bpY=",
+    "last_login": "2022-09-17T13:58:35.170Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-09-17T13:58:24.160Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
